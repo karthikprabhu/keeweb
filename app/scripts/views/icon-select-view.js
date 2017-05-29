@@ -86,7 +86,7 @@ const IconSelectView = Backbone.View.extend({
             url = 'http://' + url;
         }
         if (useService) {
-            return 'https://favicon-antelle.rhcloud.com/' + url.replace(/^.*:\/+/, '').replace(/\/.*/, '');
+            return 'https://icons.better-idea.org/icon?url=' + url.replace(/^.*:\/+/, '').replace(/\/.*/, '') + '&size=26..26..64';
         }
         return url;
     },
