@@ -86,7 +86,7 @@ const IconSelectView = Backbone.View.extend({
             url = 'http://' + url;
         }
         if (useService) {
-            return 'https://icons.better-idea.org/icon?url=' + url.replace(/^.*:\/+/, '').replace(/\/.*/, '') + '&size=26..26..64';
+            return 'https://crossorigin.me/https://icons.better-idea.org/icon?url=' + url.replace(/^.*:\/+/, '').replace(/\/.*/, '') + '&size=26..26..64';
         }
         return url;
     },
